@@ -1,0 +1,615 @@
+# JMH version: 1.37
+# VM version: JDK 17.0.11, Java HotSpot(TM) 64-Bit Server VM, 17.0.11+7-LTS-207
+# VM invoker: C:\Program Files\Java\jdk-17\bin\java.exe
+# VM options: -Dorg.slf4j.simpleLogger.defaultLogLevel=warn -Dorg.slf4j.simpleLogger.log.kafka=warn -Dorg.slf4j.simpleLogger.log.org.apache.kafka=warn -Dfile.encoding=windows-1251 -Duser.country=RU -Duser.language=ru -Duser.variant
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.example.benchmark.KafkaBenchmark.testMultipleProducersMultipleConsumers
+
+# Run progress: 0,00% complete, ETA 00:02:20
+# Fork: 1 of 1
+# Warmup Iteration   1: 0,003 ops/ms
+# Warmup Iteration   2: 0,003 ops/ms
+Iteration   1: 0,003 ops/ms
+Iteration   2: 0,003 ops/ms
+Iteration   3: 0,003 ops/ms
+Iteration   4: 0,003 ops/ms
+Iteration   5: 0,003 ops/ms
+
+
+Result "com.example.benchmark.KafkaBenchmark.testMultipleProducersMultipleConsumers":
+  0,003 ±(99.9%) 0,001 ops/ms [Average]
+  (min, avg, max) = (0,003, 0,003, 0,003), stdev = 0,001
+  CI (99.9%): [0,003, 0,003] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.11, Java HotSpot(TM) 64-Bit Server VM, 17.0.11+7-LTS-207
+# VM invoker: C:\Program Files\Java\jdk-17\bin\java.exe
+# VM options: -Dorg.slf4j.simpleLogger.defaultLogLevel=warn -Dorg.slf4j.simpleLogger.log.kafka=warn -Dorg.slf4j.simpleLogger.log.org.apache.kafka=warn -Dfile.encoding=windows-1251 -Duser.country=RU -Duser.language=ru -Duser.variant
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.example.benchmark.KafkaBenchmark.testMultipleProducersSingleConsumer
+
+# Run progress: 5,00% complete, ETA 00:04:25
+# Fork: 1 of 1
+# Warmup Iteration   1: 0,007 ops/ms
+# Warmup Iteration   2: 0,009 ops/ms
+Iteration   1: 0,009 ops/ms
+Iteration   2: 0,009 ops/ms
+Iteration   3: 0,009 ops/ms
+Iteration   4: 0,009 ops/ms
+Iteration   5: 0,009 ops/ms
+
+
+Result "com.example.benchmark.KafkaBenchmark.testMultipleProducersSingleConsumer":
+  0,009 ±(99.9%) 0,001 ops/ms [Average]
+  (min, avg, max) = (0,009, 0,009, 0,009), stdev = 0,001
+  CI (99.9%): [0,009, 0,009] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.11, Java HotSpot(TM) 64-Bit Server VM, 17.0.11+7-LTS-207
+# VM invoker: C:\Program Files\Java\jdk-17\bin\java.exe
+# VM options: -Dorg.slf4j.simpleLogger.defaultLogLevel=warn -Dorg.slf4j.simpleLogger.log.kafka=warn -Dorg.slf4j.simpleLogger.log.org.apache.kafka=warn -Dfile.encoding=windows-1251 -Duser.country=RU -Duser.language=ru -Duser.variant
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.example.benchmark.KafkaBenchmark.testSingleProducerMultipleConsumers
+
+# Run progress: 10,00% complete, ETA 00:07:49
+# Fork: 1 of 1
+# Warmup Iteration   1: 0,002 ops/ms
+# Warmup Iteration   2: 0,003 ops/ms
+Iteration   1: 0,003 ops/ms
+Iteration   2: 0,003 ops/ms
+Iteration   3: 0,003 ops/ms
+Iteration   4: 0,003 ops/ms
+Iteration   5: 0,003 ops/ms
+
+
+Result "com.example.benchmark.KafkaBenchmark.testSingleProducerMultipleConsumers":
+  0,003 ±(99.9%) 0,001 ops/ms [Average]
+  (min, avg, max) = (0,003, 0,003, 0,003), stdev = 0,001
+  CI (99.9%): [0,003, 0,003] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.11, Java HotSpot(TM) 64-Bit Server VM, 17.0.11+7-LTS-207
+# VM invoker: C:\Program Files\Java\jdk-17\bin\java.exe
+# VM options: -Dorg.slf4j.simpleLogger.defaultLogLevel=warn -Dorg.slf4j.simpleLogger.log.kafka=warn -Dorg.slf4j.simpleLogger.log.org.apache.kafka=warn -Dfile.encoding=windows-1251 -Duser.country=RU -Duser.language=ru -Duser.variant
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.example.benchmark.KafkaBenchmark.testSingleProducerSingleConsumer
+
+# Run progress: 15,00% complete, ETA 00:14:16
+# Fork: 1 of 1
+# Warmup Iteration   1: 0,006 ops/ms
+# Warmup Iteration   2: 0,009 ops/ms
+Iteration   1: 0,009 ops/ms
+Iteration   2: 0,009 ops/ms
+Iteration   3: 0,009 ops/ms
+Iteration   4: 0,009 ops/ms
+Iteration   5: 0,009 ops/ms
+
+
+Result "com.example.benchmark.KafkaBenchmark.testSingleProducerSingleConsumer":
+  0,009 ±(99.9%) 0,001 ops/ms [Average]
+  (min, avg, max) = (0,009, 0,009, 0,009), stdev = 0,001
+  CI (99.9%): [0,009, 0,009] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.11, Java HotSpot(TM) 64-Bit Server VM, 17.0.11+7-LTS-207
+# VM invoker: C:\Program Files\Java\jdk-17\bin\java.exe
+# VM options: -Dorg.slf4j.simpleLogger.defaultLogLevel=warn -Dorg.slf4j.simpleLogger.log.kafka=warn -Dorg.slf4j.simpleLogger.log.org.apache.kafka=warn -Dfile.encoding=windows-1251 -Duser.country=RU -Duser.language=ru -Duser.variant
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.example.benchmark.KafkaBenchmark.testStressTest
+
+# Run progress: 20,00% complete, ETA 00:12:37
+# Fork: 1 of 1
+# Warmup Iteration   1: 0,001 ops/ms
+# Warmup Iteration   2: 0,001 ops/ms
+Iteration   1: 0,001 ops/ms
+Iteration   2: 0,001 ops/ms
+Iteration   3: 0,001 ops/ms
+Iteration   4: 0,001 ops/ms
+Iteration   5: 0,001 ops/ms
+
+
+Result "com.example.benchmark.KafkaBenchmark.testStressTest":
+  0,001 ±(99.9%) 0,001 ops/ms [Average]
+  (min, avg, max) = (0,001, 0,001, 0,001), stdev = 0,001
+  CI (99.9%): [0,001, 0,001] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.11, Java HotSpot(TM) 64-Bit Server VM, 17.0.11+7-LTS-207
+# VM invoker: C:\Program Files\Java\jdk-17\bin\java.exe
+# VM options: -Dorg.slf4j.simpleLogger.defaultLogLevel=warn -Dorg.slf4j.simpleLogger.log.kafka=warn -Dorg.slf4j.simpleLogger.log.org.apache.kafka=warn -Dfile.encoding=windows-1251 -Duser.country=RU -Duser.language=ru -Duser.variant
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.example.benchmark.RabbitMQBenchmark.testMultipleProducersMultipleConsumers
+
+# Run progress: 25,00% complete, ETA 00:12:01
+# Fork: 1 of 1
+# Warmup Iteration   1: 0,027 ops/ms
+# Warmup Iteration   2: 0,031 ops/ms
+Iteration   1: 0,030 ops/ms
+Iteration   2: 0,032 ops/ms
+Iteration   3: 0,031 ops/ms
+Iteration   4: 0,032 ops/ms
+Iteration   5: 0,032 ops/ms
+
+
+Result "com.example.benchmark.RabbitMQBenchmark.testMultipleProducersMultipleConsumers":
+  0,032 ±(99.9%) 0,003 ops/ms [Average]
+  (min, avg, max) = (0,030, 0,032, 0,032), stdev = 0,001
+  CI (99.9%): [0,029, 0,035] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.11, Java HotSpot(TM) 64-Bit Server VM, 17.0.11+7-LTS-207
+# VM invoker: C:\Program Files\Java\jdk-17\bin\java.exe
+# VM options: -Dorg.slf4j.simpleLogger.defaultLogLevel=warn -Dorg.slf4j.simpleLogger.log.kafka=warn -Dorg.slf4j.simpleLogger.log.org.apache.kafka=warn -Dfile.encoding=windows-1251 -Duser.country=RU -Duser.language=ru -Duser.variant
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.example.benchmark.RabbitMQBenchmark.testMultipleProducersSingleConsumer
+
+# Run progress: 30,00% complete, ETA 00:09:39
+# Fork: 1 of 1
+# Warmup Iteration   1: 0,027 ops/ms
+# Warmup Iteration   2: 0,033 ops/ms
+Iteration   1: 0,032 ops/ms
+Iteration   2: 0,032 ops/ms
+Iteration   3: 0,032 ops/ms
+Iteration   4: 0,031 ops/ms
+Iteration   5: 0,032 ops/ms
+
+
+Result "com.example.benchmark.RabbitMQBenchmark.testMultipleProducersSingleConsumer":
+  0,032 ±(99.9%) 0,002 ops/ms [Average]
+  (min, avg, max) = (0,031, 0,032, 0,032), stdev = 0,001
+  CI (99.9%): [0,030, 0,034] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.11, Java HotSpot(TM) 64-Bit Server VM, 17.0.11+7-LTS-207
+# VM invoker: C:\Program Files\Java\jdk-17\bin\java.exe
+# VM options: -Dorg.slf4j.simpleLogger.defaultLogLevel=warn -Dorg.slf4j.simpleLogger.log.kafka=warn -Dorg.slf4j.simpleLogger.log.org.apache.kafka=warn -Dfile.encoding=windows-1251 -Duser.country=RU -Duser.language=ru -Duser.variant
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.example.benchmark.RabbitMQBenchmark.testSingleProducerMultipleConsumers
+
+# Run progress: 35,00% complete, ETA 00:07:55
+# Fork: 1 of 1
+# Warmup Iteration   1: 0,031 ops/ms
+# Warmup Iteration   2: 0,040 ops/ms
+Iteration   1: 0,043 ops/ms
+Iteration   2: 0,043 ops/ms
+Iteration   3: 0,044 ops/ms
+Iteration   4: 0,042 ops/ms
+Iteration   5: 0,045 ops/ms
+
+
+Result "com.example.benchmark.RabbitMQBenchmark.testSingleProducerMultipleConsumers":
+  0,043 ±(99.9%) 0,005 ops/ms [Average]
+  (min, avg, max) = (0,042, 0,043, 0,045), stdev = 0,001
+  CI (99.9%): [0,039, 0,048] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.11, Java HotSpot(TM) 64-Bit Server VM, 17.0.11+7-LTS-207
+# VM invoker: C:\Program Files\Java\jdk-17\bin\java.exe
+# VM options: -Dorg.slf4j.simpleLogger.defaultLogLevel=warn -Dorg.slf4j.simpleLogger.log.kafka=warn -Dorg.slf4j.simpleLogger.log.org.apache.kafka=warn -Dfile.encoding=windows-1251 -Duser.country=RU -Duser.language=ru -Duser.variant
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.example.benchmark.RabbitMQBenchmark.testSingleProducerSingleConsumer
+
+# Run progress: 40,00% complete, ETA 00:06:35
+# Fork: 1 of 1
+# Warmup Iteration   1: 0,029 ops/ms
+# Warmup Iteration   2: 0,032 ops/ms
+Iteration   1: 0,033 ops/ms
+Iteration   2: 0,031 ops/ms
+Iteration   3: 0,035 ops/ms
+Iteration   4: 0,035 ops/ms
+Iteration   5: 0,033 ops/ms
+
+
+Result "com.example.benchmark.RabbitMQBenchmark.testSingleProducerSingleConsumer":
+  0,033 ±(99.9%) 0,006 ops/ms [Average]
+  (min, avg, max) = (0,031, 0,033, 0,035), stdev = 0,001
+  CI (99.9%): [0,028, 0,039] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.11, Java HotSpot(TM) 64-Bit Server VM, 17.0.11+7-LTS-207
+# VM invoker: C:\Program Files\Java\jdk-17\bin\java.exe
+# VM options: -Dorg.slf4j.simpleLogger.defaultLogLevel=warn -Dorg.slf4j.simpleLogger.log.kafka=warn -Dorg.slf4j.simpleLogger.log.org.apache.kafka=warn -Dfile.encoding=windows-1251 -Duser.country=RU -Duser.language=ru -Duser.variant
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.example.benchmark.RabbitMQBenchmark.testStressTest
+
+# Run progress: 45,00% complete, ETA 00:05:31
+# Fork: 1 of 1
+# Warmup Iteration   1: 0,027 ops/ms
+# Warmup Iteration   2: 0,034 ops/ms
+Iteration   1: 0,034 ops/ms
+Iteration   2: 0,034 ops/ms
+Iteration   3: 0,032 ops/ms
+Iteration   4: 0,032 ops/ms
+Iteration   5: 0,032 ops/ms
+
+
+Result "com.example.benchmark.RabbitMQBenchmark.testStressTest":
+  0,033 ±(99.9%) 0,004 ops/ms [Average]
+  (min, avg, max) = (0,032, 0,033, 0,034), stdev = 0,001
+  CI (99.9%): [0,029, 0,037] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.11, Java HotSpot(TM) 64-Bit Server VM, 17.0.11+7-LTS-207
+# VM invoker: C:\Program Files\Java\jdk-17\bin\java.exe
+# VM options: -Dorg.slf4j.simpleLogger.defaultLogLevel=warn -Dorg.slf4j.simpleLogger.log.kafka=warn -Dorg.slf4j.simpleLogger.log.org.apache.kafka=warn -Dfile.encoding=windows-1251 -Duser.country=RU -Duser.language=ru -Duser.variant
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.example.benchmark.KafkaBenchmark.testMultipleProducersMultipleConsumers
+
+# Run progress: 50,00% complete, ETA 00:04:38
+# Fork: 1 of 1
+# Warmup Iteration   1: 391,852 ms/op
+# Warmup Iteration   2: 341,024 ms/op
+Iteration   1: 336,746 ms/op
+Iteration   2: 327,533 ms/op
+Iteration   3: 326,439 ms/op
+Iteration   4: 327,508 ms/op
+Iteration   5: 330,704 ms/op
+
+
+Result "com.example.benchmark.KafkaBenchmark.testMultipleProducersMultipleConsumers":
+  329,786 ±(99.9%) 16,195 ms/op [Average]
+  (min, avg, max) = (326,439, 329,786, 336,746), stdev = 4,206
+  CI (99.9%): [313,591, 345,981] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.11, Java HotSpot(TM) 64-Bit Server VM, 17.0.11+7-LTS-207
+# VM invoker: C:\Program Files\Java\jdk-17\bin\java.exe
+# VM options: -Dorg.slf4j.simpleLogger.defaultLogLevel=warn -Dorg.slf4j.simpleLogger.log.kafka=warn -Dorg.slf4j.simpleLogger.log.org.apache.kafka=warn -Dfile.encoding=windows-1251 -Duser.country=RU -Duser.language=ru -Duser.variant
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.example.benchmark.KafkaBenchmark.testMultipleProducersSingleConsumer
+
+# Run progress: 55,00% complete, ETA 00:04:30
+# Fork: 1 of 1
+# Warmup Iteration   1: 154,888 ms/op
+# Warmup Iteration   2: 109,680 ms/op
+Iteration   1: 108,602 ms/op
+Iteration   2: 108,331 ms/op
+Iteration   3: 108,486 ms/op
+Iteration   4: 109,424 ms/op
+Iteration   5: 108,194 ms/op
+
+
+Result "com.example.benchmark.KafkaBenchmark.testMultipleProducersSingleConsumer":
+  108,608 ±(99.9%) 1,855 ms/op [Average]
+  (min, avg, max) = (108,194, 108,608, 109,424), stdev = 0,482
+  CI (99.9%): [106,753, 110,462] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.11, Java HotSpot(TM) 64-Bit Server VM, 17.0.11+7-LTS-207
+# VM invoker: C:\Program Files\Java\jdk-17\bin\java.exe
+# VM options: -Dorg.slf4j.simpleLogger.defaultLogLevel=warn -Dorg.slf4j.simpleLogger.log.kafka=warn -Dorg.slf4j.simpleLogger.log.org.apache.kafka=warn -Dfile.encoding=windows-1251 -Duser.country=RU -Duser.language=ru -Duser.variant
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.example.benchmark.KafkaBenchmark.testSingleProducerMultipleConsumers
+
+# Run progress: 60,00% complete, ETA 00:04:05
+# Fork: 1 of 1
+# Warmup Iteration   1: 506,207 ms/op
+# Warmup Iteration   2: 339,543 ms/op
+Iteration   1: 342,433 ms/op
+Iteration   2: 334,944 ms/op
+Iteration   3: 327,517 ms/op
+Iteration   4: 326,473 ms/op
+Iteration   5: 325,275 ms/op
+
+
+Result "com.example.benchmark.KafkaBenchmark.testSingleProducerMultipleConsumers":
+  331,328 ±(99.9%) 27,976 ms/op [Average]
+  (min, avg, max) = (325,275, 331,328, 342,433), stdev = 7,265
+  CI (99.9%): [303,353, 359,304] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.11, Java HotSpot(TM) 64-Bit Server VM, 17.0.11+7-LTS-207
+# VM invoker: C:\Program Files\Java\jdk-17\bin\java.exe
+# VM options: -Dorg.slf4j.simpleLogger.defaultLogLevel=warn -Dorg.slf4j.simpleLogger.log.kafka=warn -Dorg.slf4j.simpleLogger.log.org.apache.kafka=warn -Dfile.encoding=windows-1251 -Duser.country=RU -Duser.language=ru -Duser.variant
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.example.benchmark.KafkaBenchmark.testSingleProducerSingleConsumer
+
+# Run progress: 65,00% complete, ETA 00:03:55
+# Fork: 1 of 1
+# Warmup Iteration   1: 153,225 ms/op
+# Warmup Iteration   2: 109,381 ms/op
+Iteration   1: 108,350 ms/op
+Iteration   2: 108,791 ms/op
+Iteration   3: 109,105 ms/op
+Iteration   4: 109,150 ms/op
+Iteration   5: 108,047 ms/op
+
+
+Result "com.example.benchmark.KafkaBenchmark.testSingleProducerSingleConsumer":
+  108,689 ±(99.9%) 1,849 ms/op [Average]
+  (min, avg, max) = (108,047, 108,689, 109,150), stdev = 0,480
+  CI (99.9%): [106,839, 110,538] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.11, Java HotSpot(TM) 64-Bit Server VM, 17.0.11+7-LTS-207
+# VM invoker: C:\Program Files\Java\jdk-17\bin\java.exe
+# VM options: -Dorg.slf4j.simpleLogger.defaultLogLevel=warn -Dorg.slf4j.simpleLogger.log.kafka=warn -Dorg.slf4j.simpleLogger.log.org.apache.kafka=warn -Dfile.encoding=windows-1251 -Duser.country=RU -Duser.language=ru -Duser.variant
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.example.benchmark.KafkaBenchmark.testStressTest
+
+# Run progress: 70,00% complete, ETA 00:03:18
+# Fork: 1 of 1
+# Warmup Iteration   1: 1470,521 ms/op
+# Warmup Iteration   2: 1128,744 ms/op
+Iteration   1: 1117,706 ms/op
+Iteration   2: 1670,514 ms/op
+Iteration   3: 1100,015 ms/op
+Iteration   4: 1107,314 ms/op
+Iteration   5: 1101,899 ms/op
+
+
+Result "com.example.benchmark.KafkaBenchmark.testStressTest":
+  1219,490 ±(99.9%) 971,225 ms/op [Average]
+  (min, avg, max) = (1100,015, 1219,490, 1670,514), stdev = 252,224
+  CI (99.9%): [248,264, 2190,715] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.11, Java HotSpot(TM) 64-Bit Server VM, 17.0.11+7-LTS-207
+# VM invoker: C:\Program Files\Java\jdk-17\bin\java.exe
+# VM options: -Dorg.slf4j.simpleLogger.defaultLogLevel=warn -Dorg.slf4j.simpleLogger.log.kafka=warn -Dorg.slf4j.simpleLogger.log.org.apache.kafka=warn -Dfile.encoding=windows-1251 -Duser.country=RU -Duser.language=ru -Duser.variant
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.example.benchmark.RabbitMQBenchmark.testMultipleProducersMultipleConsumers
+
+# Run progress: 75,00% complete, ETA 00:02:50
+# Fork: 1 of 1
+# Warmup Iteration   1: 31,127 ms/op
+# Warmup Iteration   2: 23,350 ms/op
+Iteration   1: 24,328 ms/op
+Iteration   2: 23,189 ms/op
+Iteration   3: 23,332 ms/op
+Iteration   4: 22,788 ms/op
+Iteration   5: 23,343 ms/op
+
+
+Result "com.example.benchmark.RabbitMQBenchmark.testMultipleProducersMultipleConsumers":
+  23,396 ±(99.9%) 2,185 ms/op [Average]
+  (min, avg, max) = (22,788, 23,396, 24,328), stdev = 0,567
+  CI (99.9%): [21,211, 25,581] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.11, Java HotSpot(TM) 64-Bit Server VM, 17.0.11+7-LTS-207
+# VM invoker: C:\Program Files\Java\jdk-17\bin\java.exe
+# VM options: -Dorg.slf4j.simpleLogger.defaultLogLevel=warn -Dorg.slf4j.simpleLogger.log.kafka=warn -Dorg.slf4j.simpleLogger.log.org.apache.kafka=warn -Dfile.encoding=windows-1251 -Duser.country=RU -Duser.language=ru -Duser.variant
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.example.benchmark.RabbitMQBenchmark.testMultipleProducersSingleConsumer
+
+# Run progress: 80,00% complete, ETA 00:02:10
+# Fork: 1 of 1
+# Warmup Iteration   1: 31,601 ms/op
+# Warmup Iteration   2: 21,792 ms/op
+Iteration   1: 21,447 ms/op
+Iteration   2: 21,020 ms/op
+Iteration   3: 20,171 ms/op
+Iteration   4: 20,581 ms/op
+Iteration   5: 19,827 ms/op
+
+
+Result "com.example.benchmark.RabbitMQBenchmark.testMultipleProducersSingleConsumer":
+  20,609 ±(99.9%) 2,492 ms/op [Average]
+  (min, avg, max) = (19,827, 20,609, 21,447), stdev = 0,647
+  CI (99.9%): [18,117, 23,101] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.11, Java HotSpot(TM) 64-Bit Server VM, 17.0.11+7-LTS-207
+# VM invoker: C:\Program Files\Java\jdk-17\bin\java.exe
+# VM options: -Dorg.slf4j.simpleLogger.defaultLogLevel=warn -Dorg.slf4j.simpleLogger.log.kafka=warn -Dorg.slf4j.simpleLogger.log.org.apache.kafka=warn -Dfile.encoding=windows-1251 -Duser.country=RU -Duser.language=ru -Duser.variant
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.example.benchmark.RabbitMQBenchmark.testSingleProducerMultipleConsumers
+
+# Run progress: 85,00% complete, ETA 00:01:33
+# Fork: 1 of 1
+# Warmup Iteration   1: 31,675 ms/op
+# Warmup Iteration   2: 24,659 ms/op
+Iteration   1: 24,493 ms/op
+Iteration   2: 24,715 ms/op
+Iteration   3: 24,215 ms/op
+Iteration   4: 23,202 ms/op
+Iteration   5: 21,904 ms/op
+
+
+Result "com.example.benchmark.RabbitMQBenchmark.testSingleProducerMultipleConsumers":
+  23,706 ±(99.9%) 4,473 ms/op [Average]
+  (min, avg, max) = (21,904, 23,706, 24,715), stdev = 1,162
+  CI (99.9%): [19,233, 28,179] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.11, Java HotSpot(TM) 64-Bit Server VM, 17.0.11+7-LTS-207
+# VM invoker: C:\Program Files\Java\jdk-17\bin\java.exe
+# VM options: -Dorg.slf4j.simpleLogger.defaultLogLevel=warn -Dorg.slf4j.simpleLogger.log.kafka=warn -Dorg.slf4j.simpleLogger.log.org.apache.kafka=warn -Dfile.encoding=windows-1251 -Duser.country=RU -Duser.language=ru -Duser.variant
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.example.benchmark.RabbitMQBenchmark.testSingleProducerSingleConsumer
+
+# Run progress: 90,00% complete, ETA 00:00:59
+# Fork: 1 of 1
+# Warmup Iteration   1: 36,115 ms/op
+# Warmup Iteration   2: 30,005 ms/op
+Iteration   1: 31,091 ms/op
+Iteration   2: 30,540 ms/op
+Iteration   3: 30,935 ms/op
+Iteration   4: 29,692 ms/op
+Iteration   5: 31,390 ms/op
+
+
+Result "com.example.benchmark.RabbitMQBenchmark.testSingleProducerSingleConsumer":
+  30,730 ±(99.9%) 2,526 ms/op [Average]
+  (min, avg, max) = (29,692, 30,730, 31,390), stdev = 0,656
+  CI (99.9%): [28,203, 33,256] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.11, Java HotSpot(TM) 64-Bit Server VM, 17.0.11+7-LTS-207
+# VM invoker: C:\Program Files\Java\jdk-17\bin\java.exe
+# VM options: -Dorg.slf4j.simpleLogger.defaultLogLevel=warn -Dorg.slf4j.simpleLogger.log.kafka=warn -Dorg.slf4j.simpleLogger.log.org.apache.kafka=warn -Dfile.encoding=windows-1251 -Duser.country=RU -Duser.language=ru -Duser.variant
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.example.benchmark.RabbitMQBenchmark.testStressTest
+
+# Run progress: 95,00% complete, ETA 00:00:28
+# Fork: 1 of 1
+# Warmup Iteration   1: 40,947 ms/op
+# Warmup Iteration   2: 35,740 ms/op
+Iteration   1: 35,859 ms/op
+Iteration   2: 36,362 ms/op
+Iteration   3: 37,754 ms/op
+Iteration   4: 37,648 ms/op
+Iteration   5: 37,896 ms/op
+
+
+Result "com.example.benchmark.RabbitMQBenchmark.testStressTest":
+  37,104 ±(99.9%) 3,573 ms/op [Average]
+  (min, avg, max) = (35,859, 37,104, 37,896), stdev = 0,928
+  CI (99.9%): [33,530, 40,677] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:09:10
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+NOTE: Current JVM experimentally supports Compiler Blackholes, and they are in use. Please exercise
+extra caution when trusting the results, look into the generated code to check the benchmark still
+works, and factor in a small probability of new VM bugs. Additionally, while comparisons between
+different JVMs are already problematic, the performance difference caused by different Blackhole
+modes can be very significant. Please make sure you use the consistent Blackhole mode for comparisons.
+
+Benchmark                                                  Mode  Cnt     Score     Error   Units
+KafkaBenchmark.testMultipleProducersMultipleConsumers     thrpt    5     0,003 ±   0,001  ops/ms
+KafkaBenchmark.testMultipleProducersSingleConsumer        thrpt    5     0,009 ±   0,001  ops/ms
+KafkaBenchmark.testSingleProducerMultipleConsumers        thrpt    5     0,003 ±   0,001  ops/ms
+KafkaBenchmark.testSingleProducerSingleConsumer           thrpt    5     0,009 ±   0,001  ops/ms
+KafkaBenchmark.testStressTest                             thrpt    5     0,001 ±   0,001  ops/ms
+RabbitMQBenchmark.testMultipleProducersMultipleConsumers  thrpt    5     0,032 ±   0,003  ops/ms
+RabbitMQBenchmark.testMultipleProducersSingleConsumer     thrpt    5     0,032 ±   0,002  ops/ms
+RabbitMQBenchmark.testSingleProducerMultipleConsumers     thrpt    5     0,043 ±   0,005  ops/ms
+RabbitMQBenchmark.testSingleProducerSingleConsumer        thrpt    5     0,033 ±   0,006  ops/ms
+RabbitMQBenchmark.testStressTest                          thrpt    5     0,033 ±   0,004  ops/ms
+KafkaBenchmark.testMultipleProducersMultipleConsumers      avgt    5   329,786 ±  16,195   ms/op
+KafkaBenchmark.testMultipleProducersSingleConsumer         avgt    5   108,608 ±   1,855   ms/op
+KafkaBenchmark.testSingleProducerMultipleConsumers         avgt    5   331,328 ±  27,976   ms/op
+KafkaBenchmark.testSingleProducerSingleConsumer            avgt    5   108,689 ±   1,849   ms/op
+KafkaBenchmark.testStressTest                              avgt    5  1219,490 ± 971,225   ms/op
+RabbitMQBenchmark.testMultipleProducersMultipleConsumers   avgt    5    23,396 ±   2,185   ms/op
+RabbitMQBenchmark.testMultipleProducersSingleConsumer      avgt    5    20,609 ±   2,492   ms/op
+RabbitMQBenchmark.testSingleProducerMultipleConsumers      avgt    5    23,706 ±   4,473   ms/op
+RabbitMQBenchmark.testSingleProducerSingleConsumer         avgt    5    30,730 ±   2,526   ms/op
+RabbitMQBenchmark.testStressTest                           avgt    5    37,104 ±   3,573   ms/op

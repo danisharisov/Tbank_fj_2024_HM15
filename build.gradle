@@ -1,28 +1,73 @@
 plugins {
-	id 'java'
-	id 'org.springframework.boot' version '3.3.5'
-	id 'io.spring.dependency-management' version '1.1.6'
+    id 'java'
+    id 'org.springframework.boot' version '3.3.5'
+    id 'io.spring.dependency-management' version '1.1.6'
 }
 
 group = 'com.example'
 version = '0.0.1-SNAPSHOT'
 
 java {
-	toolchain {
-		languageVersion = JavaLanguageVersion.of(17)
-	}
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
+}
+
+configurations {
+    compileOnly {
+        extendsFrom annotationProcessor
+    }
 }
 
 repositories {
-	mavenCentral()
+    mavenCentral()
 }
 
 dependencies {
-	implementation 'org.springframework.boot:spring-boot-starter'
-	testImplementation 'org.springframework.boot:spring-boot-starter-test'
-	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+    implementation 'org.springframework.boot:spring-boot-starter'
+    implementation 'org.springframework.boot:spring-boot-starter-amqp'
+    implementation 'org.springframework.kafka:spring-kafka'
+
+    implementation 'org.openjdk.jmh:jmh-core:1.37'
+    annotationProcessor 'org.openjdk.jmh:jmh-generator-annprocess:1.37'
+
+    implementation 'org.slf4j:slf4j-api:2.0.9'
+    compileOnly 'org.projectlombok:lombok'
+    annotationProcessor 'org.projectlombok:lombok'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 }
 
+
+task jmhCompile(type: JavaCompile) {
+    source = fileTree("src/main/java")
+    include("**/*.java")
+    classpath = sourceSets.main.runtimeClasspath
+    destinationDirectory = file("build/classes/jmh")
+    options.compilerArgs = ["-proc:only"]
+}
+
+
+task runJmh(type: JavaExec) {
+    dependsOn jmhCompile
+    mainClass = "org.openjdk.jmh.Main"
+    classpath = files("build/classes/jmh") + sourceSets.main.runtimeClasspath
+
+    jvmArgs = [
+            "-Dorg.slf4j.simpleLogger.defaultLogLevel=warn",
+            "-Dorg.slf4j.simpleLogger.log.org.apache.kafka=warn",
+            "-Dorg.slf4j.simpleLogger.log.kafka=warn"
+    ]
+
+    args = [
+            "-o", "build/benchmark_results.txt",
+            "-f", "1",
+            "-i", "5",
+            "-wi", "2"
+    ]
+}
+
+
 tasks.named('test') {
-	useJUnitPlatform()
+    useJUnitPlatform()
 }
